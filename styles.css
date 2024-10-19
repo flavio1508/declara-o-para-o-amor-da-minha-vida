@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001f3f; /* Fundo azul escuro */
+    color: #fff; /* Texto em branco para melhor contraste */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Adiciona alinhamento vertical */
+    min-height: 100vh; /* Garante que a altura mínima ocupe a tela */
+}
+
+.container {
+    background-color: #001f3f; /* Fundo azul escuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px; /* Limita a largura da caixa de conteúdo */
+    margin: 20px; /* Espaçamento externo */
+    width: 90%; /* Garante que o contêiner se ajuste em telas menores */
+}
+
+h1 {
+    color: #e91e63;
+    margin-bottom: 20px; /* Espaço abaixo do título principal */
+}
+
+h2 {
+    color: #4a90e2; /* Cor para os subtítulos */
+    margin-top: 30px; /* Espaço acima dos subtítulos */
+    margin-bottom: 15px; /* Espaço abaixo dos subtítulos */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0; /* Espaçamento entre parágrafos */
+}
+
+.imagem {
+    max-width: 100%; /* Faz a imagem ocupar no máximo a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Borda arredondada para as imagens */
+    margin: 10px 0; /* Espaço acima e abaixo das imagens */
+    border: 2px solid #e91e63; /* Borda colorida em torno das imagens */
+}
+
+.container p:last-of-type {
+    font-weight: bold; /* Destaca a última declaração */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Tamanho menor do título em telas pequenas */
+    }
+
+    h2 {
+        font-size: 20px; /* Tamanho menor dos subtítulos */
+    }
+
+    p {
+        font-size: 16px; /* Tamanho menor do texto */
+    }
+}
